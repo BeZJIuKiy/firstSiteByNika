@@ -229,11 +229,19 @@ hr {
 }
 
 
-
 /* Section */
 .section {
-padding: 80px 0;
+    padding: 80px 0;
 }
+
+.section--devices {
+    padding-bottom: 0;
+
+    background: url("../images/devices bg/MoGo_FREE_Template_by_Laaqiq_02.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 
 .section_header {
     width: 100%;
@@ -245,7 +253,7 @@ padding: 80px 0;
 
 .section_suptitle {
     font-family: 'Kaushan Script', cursive;
-font-size: 24px;
+    font-size: 24px;
     color: #333;
 
 }
@@ -336,7 +344,7 @@ font-size: 24px;
 
 .stat {
     display: flex;
-    }
+}
 
 .stat_item {
     flex: 1 1 0;
@@ -355,10 +363,10 @@ font-size: 24px;
 .stat_count {
     margin-bottom: 10px;
 
-    font-size: 72px ;
+    font-size: 72px;
     font-weight: 700;
     line-height: 1;
-    }
+}
 
 .stat_text {
     font-size: 14px;
@@ -369,6 +377,7 @@ font-size: 24px;
 .services {
     display: flex;
 }
+
 .services_item {
     flex: 1 1 0;
     padding-left: 85px;
@@ -395,6 +404,45 @@ font-size: 24px;
     font-size: 15px;
     color: #999;
 }
+
+/* Devices */
+.devices {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.devices_item {
+    display: block;
+}
+
+.devices_item--iphone {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
